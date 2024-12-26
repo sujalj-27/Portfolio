@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style type="text/css">
+        body {
+            background: url(Public/Images/background-template-wave-gradient-style_483537-5016.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+
+        }
+
+        .navbar {
+            margin-right: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .navbar a:hover {
+            color: #ffa500;
+            /* Change to orange on hover */
+            transition: color 0.3s ease;
+        }
+
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .greet {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+
+        .intro1 {
+            color: white;
+            margin-top: 120px;
+            margin-left: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+        }
+
+        .name {
+            color: lightblue;
+        }
+
+        .intro2 {
+            color: white;
+            font-family: Arial;
+            margin-left: 100px;
+            font-size: 35px;
+            margin-top: 6px;
+        }
+
+        .intro3 {
+            color: white;
+            margin-left: 100px;
+            font-family: Arial;
+            font-size: 30px;
+            margin-top: 12px;
+        }
+
+        img {
+            margin-right: 200px;
+            margin-bottom: 50px;
+            margin-top: -200px;
+        }
+
+        .section1 h1 {
+            text-align: center;
+            font-size: 70px;
+            border-bottom: 1px solid white;
+            color: white;
+            margin-top: 100px;
+
+        }
+
+        .section3 h1 {
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .section3 a {
+            color: white;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            gap: 200px;
+            padding: 20px;
+            text-align: justify;
+            margin: 50px;
+            margin-left: 100px;
+            font-size: 25px;
+            color: white;
+        }
+
+        marquee {
+            color: white;
+            background-color: #333;
+            font-size: 60px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .images {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+
+        .images img {
+            margin-top: 50px;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        footer {
+            border-top: 1px solid white;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 45px;
+        }
+
+
+        .bi-link-45deg {
+            background-color: orange;
+            border: 2px solid white;
+            border-radius: 30px;
+            padding: 3px;
+            margin-right: 5px;
+            padding-top: 2px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .bi-envelope {
+            margin-left: 480px;
+            color: white;
+            background-color: orange;
+            font-size: 40px;
+            border: 2px solid white;
+            border-radius: 40px;
+            padding: 6px;
+        }
+
+        .bi-linkedin {
+            color: white;
+            background-color: orange;
+            font-size: 40px;
+            border: 2px solid white;
+            border-radius: 40px;
+            padding: 6px;
+            margin-left: 20px;
+        }
+
+        .bi-github {
+            color: white;
+            background-color: orange;
+            font-size: 40px;
+            border: 2px solid white;
+            border-radius: 40px;
+            padding: 6px;
+            margin-left: 20px;
+        }
+
+        .bi-instagram {
+            color: white;
+            background-color: orange;
+            font-size: 40px;
+            border: 2px solid white;
+            border-radius: 40px;
+            padding: 6px;
+            margin-left: 20px;
+        }
+
+        h2 {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="greet">Hello!</span>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="intro1">
+        I'm <span class="name">Sujal Jain</span>
+    </section>
+
+    <section class="intro2">
+        A Tech Student at PW-IOI
+    </section>
+
+    <section class="intro3">
+        Let's build a community of like-minded individuals!<br>
+        and grow together!
+    </section>
+
+
+    <img src="Public/Images/WhatsApp Image 2024-12-26 at 22.22.40_c6d707fb.jpg" align="right" height="300px"
+        class="img">
+    <section class="section1">
+        <div class="about" id="about">
+            <h1>ABOUT ME</h1>
+        </div>
+        <div class="about-content">
+            <div>
+                <p class="p1">I'm a computer science and web development enthusiast, always eager to explore new
+                    technologies and learn
+                    something new every day. My passion for coding keeps me motivated, and I'm constantly looking for
+                    ways to
+                    improve and push the boundaries of what I can create.
+                </p>
+            </div>
+            <div>
+                <p class="p2">Feel free to check out my work and connect with me—let's build something great together!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="skills" id="skills">
+            <h1>Skills</h1>
+        </div>
+        <marquee scrollamount="15">
+            <span class="bi-dot">HTML</span>
+            <span class="bi-dot">CSS</span>
+            <span class="bi-dot">JAVASCRIPT</span>
+            <span class="bi-dot">BOOTSTRAP</span>
+            <span class="bi-dot">JAVA</span>
+        </marquee>
+    </section>
+
+    <section class="section3">
+        <div class="projects" id="projects">
+            <h1>Projects</h1>
+            <div class="images">
+                <span><img src="Public/Images/WhatsApp Image 2024-12-26 at 22.22.40_04985222.jpg" height="400px" width="600px"
+                        alt=""></span>
+                <span><img style="margin-left: -150px;" src="public/images/WhatsApp Image 2024-12-26 at 22.22.41_debb555d.jpg"
+                        height="400px" width="600px" alt=""></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact">
+            <h2>Connect With<br><span class="bi-link-45deg"></span>me on</h2>
+
+            <section class="foot">
+                <a href="mailto:sujaljain27r@gmail.com"><span class="bi-envelope"></span></a>
+                <a href="https://www.linkedin.com/in/sujal-jain-885842269/" target="_blank"> <span
+                        class="bi-linkedin"></span></a>
+                <a href=""><span class="bi-github"></span></a>
+                <a href="https://www.instagram.com/jain__sujal/?hl=en" target="_blank"><span class="bi-instagram"
+                        target="_blank"></span></a>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
